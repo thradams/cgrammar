@@ -13,3 +13,6 @@ So opt is a reserved name, working as operator.
 /*C comments are*/ used.
 
 
+I want to write the grammar of this grammar and write a parser so anyone can use
+this as a base implementation. 
+This project is not started yet.. but I create this repository to not forget to do this. :D
