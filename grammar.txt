@@ -55,8 +55,8 @@ digit: one of
  0 1 2 3 4 5 6 7 8 9
  
 universal-character-name:
- '\\\u' hex-quad
- '\\\U' hex-quad hex-quad
+ \u hex-quad
+ \U hex-quad hex-quad
 
 hex-quad:
  hexadecimal-digit hexadecimal-digit hexadecimal-digit hexadecimal-digit
@@ -77,11 +77,11 @@ integer-constant:
 
 decimal-constant:
  nonzero-digit
- decimal-constant '\'' opt digit
+ decimal-constant ' opt digit
 
 octal-constant:
- '0'
- octal-constant '\'' opt octal-digit
+ 0
+ octal-constant ' opt octal-digit
  
  
 hexadecimal-constant:
@@ -89,13 +89,13 @@ hexadecimal-constant:
  
 binary-constant:
  binary-prefix binary-digit
- binary-constant '\'' opt binary-digit
+ binary-constant ' opt binary-digit
 
 hexadecimal-prefix: one of
- "0x" "0X"
+ 0x 0X
 
 binary-prefix: one of
- "0b" "0B"
+ 0b 0B
  
 nonzero-digit: one of
  1 2 3 4 5 6 7 8 9
@@ -124,16 +124,16 @@ integer-suffix:
   bit-precise-int-suffix unsigned-suffix opt
   
 bit-precise-int-suffix: one of
-  "wb" "WB"
+  wb WB
 
 unsigned-suffix: one of
-  'u' 'U'
+  u U
 
 long-suffix: one of
-  'l' 'L'
+  l L
 
 long-long-suffix: one of
-  "ll" "LL"
+  ll LL
 
 floating-constant:
  decimal-floating-constant
