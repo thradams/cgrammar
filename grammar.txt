@@ -1,4 +1,4 @@
-
+```c
 
 token:
  keyword
@@ -908,3 +908,4 @@ va-opt-replacement:
  n-char-sequence digit
  n-char-sequence nondigit
 
+```
