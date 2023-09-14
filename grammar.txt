@@ -1,5 +1,5 @@
 
-"/*n3096*/
+/*n3096*/
 (6.4) token:
   keyword
   identifier 
