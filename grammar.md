@@ -1,5 +1,5 @@
-```c
-/*n3096*/
+```
+"/*n3096*/
 (6.4) token:
   keyword
   identifier 
@@ -19,29 +19,30 @@
 
 (6.4.1) keyword: one of
 
-alignas alignof auto bool
-break case char
-const constexpr continue
-default do double else
- enum extern false float for
-goto if
- inline int long nullptr register restrict return
- short signed sizeof static
-static_assert struct switch
-thread_local true
-typedef
-typeof
-typeof_unqual union unsigned
-void
-volatile while
-_Atomic
-_BitInt
-_Complex
-_Decimal128
-_Decimal32
-_Decimal64 _Generic
-_Imaginary
-_Noreturn
+"alignas" "alignof" "auto" "bool"
+"break" "case" "char"
+"const" "constexpr" "continue"
+"default" "do" "double" "else"
+ "enum" "extern" "false" "float" "for"
+"goto" "if"
+ "inline" "int" "long" "nullptr" "register" "restrict" "return"
+ "short" "signed" "sizeof" "static"
+"static_assert" "struct" "switch"
+"thread_local" "true"
+"typedef"
+"typeof"
+"typeof_unqual" "union" "unsigned"
+"void"
+"volatile" "while"
+"_Atomic"
+"_BitInt"
+"_Complex"
+"_Decimal128"
+"_Decimal32"
+"_Decimal64" "
+"_Generic"
+"_Imaginary"
+"_Noreturn"
 
 
 (6.4.2.1) identifier: 
@@ -224,9 +225,9 @@ hexadecimal-digit-sequence:
   hexadecimal-escape-sequence hexadecimal-digit
 
 (6.4.4.5) predefined-constant:
-  false 
-  true 
-  nullptr
+  "false"
+  "true" 
+  "nullptr"
 
 (6.4.5) string-literal:
    encoding-prefix opt  " s-char-sequence opt  "
@@ -912,6 +913,18 @@ va-opt-replacement:
    nondigit 
    d-wchar-sequence digit 
    d-wchar-sequence nondigit
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ```
