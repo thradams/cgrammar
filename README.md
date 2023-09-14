@@ -7,6 +7,11 @@ written in a text format matching almost 1:1 the pdf version.
 
 grammar
 
+Less than 3 chars means token. For instance [ is a token.
+opt is reserved.
+"literals" are tokens for instance "goto".
+identifiers are productions.
+
 ```
 
 ```
