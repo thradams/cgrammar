@@ -327,9 +327,9 @@ hexadecimal-digit-sequence:
   ++ unary-expression 
   -- unary-expression 
   unary-operator cast-expression
-  sizeof unary-expression 
-  sizeof ( type-name ) 
-  alignof ( type-name )
+  "sizeof" unary-expression 
+  "sizeof" ( type-name ) 
+  "alignof" ( type-name )
 
 (6.5.3) unary-operator: one of
    & * + - ~ !
