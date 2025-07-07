@@ -14,3 +14,7 @@ identifiers are productions.
 ```
 
 ```
+See also
+https://github.com/cigix/cstdtohtml
+(Maybe the grammar extraction can be automated, pdf->txt->grammar.txt)
+
