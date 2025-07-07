@@ -425,7 +425,8 @@ hexadecimal-digit-sequence:
   init-declarator-list , init-declarator
 
 (6.7) init-declarator: 
-  declarator declarator = initializer
+  declarator
+  declarator = initializer
 
 (6.7) attribute-declaration: 
   attribute-specifier-sequence ;
